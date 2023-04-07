@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "5741a9b1-9d64-4eb1-8b6c-06cec0e09c98",
+		"name": "SpringSecurity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/home",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hr",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Raju@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Raju",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/hr",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hr"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin hr",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Dimple@123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Dimple",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/hr",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hr"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
